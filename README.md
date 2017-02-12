@@ -8,5 +8,5 @@ docker build -t json-server .
 ```
 ## Lancer un container
 ```
-docker run -d -p 9090:80 --name api-jemilite -v "$PWD"/data-causes.json:/data/db.json json-server json-server -p 80 db.json
+docker run -d -p 9090:80 --name api-jemilite -v "$PWD"/data-causes.json:/data/db.json json-server
 ```
